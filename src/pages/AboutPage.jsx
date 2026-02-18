@@ -1,3 +1,13 @@
+import Header from "../components/Header";
+
 export default function AboutPage() {
-  return <div>About</div>;
+  return (
+    <>
+      <Header />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium,
+        expedita?
+      </p>
+    </>
+  );
 }
