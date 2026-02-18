@@ -4,7 +4,9 @@ export default function HomePage() {
   return (
     <>
       <Header />
-      <h1>hello</h1>
+      <div className="div-homepage">
+        <h1>Welcome To Our Store!</h1>
+      </div>
     </>
   );
 }

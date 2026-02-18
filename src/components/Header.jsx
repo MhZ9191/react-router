@@ -4,7 +4,10 @@ export default function Header() {
   return (
     <>
       <header>
-        <section>
+        <section className="sec-head">
+          <div className="btn-head">
+            <i className="bi bi-list"></i>
+          </div>
           <div className="div-head">
             <NavLink className="link-head" to="/">
               HOME
