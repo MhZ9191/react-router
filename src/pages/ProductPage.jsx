@@ -1,6 +1,4 @@
-import Header from "../components/Header";
-
-export default function ProductPage() {
+export default function ProductPage({ products }) {
   return (
     <>
       <h2>PRODUCTS</h2>
