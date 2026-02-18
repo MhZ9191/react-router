@@ -3,7 +3,6 @@ import Header from "../components/Header";
 export default function HomePage() {
   return (
     <>
-      <Header />
       <div className="div-homepage">
         <h1>Welcome To Our Store!</h1>
       </div>

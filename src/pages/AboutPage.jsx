@@ -3,7 +3,6 @@ import Header from "../components/Header";
 export default function AboutPage() {
   return (
     <>
-      <Header />
       <section className="sec-about">
         <div className="div-about">
           <div>
