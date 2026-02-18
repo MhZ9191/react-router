@@ -3,3 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.link-head {
+  text-decoration: none;
+  padding: 5px;
+  display: inline-block;
+  margin: 0 10px;
+  color: rgba(51, 47, 47, 0.8);
+}
+
+.active {
+  color: black;
+  transform: rotate(180deg);
+}
