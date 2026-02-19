@@ -5,6 +5,7 @@ import ProductPage from "./pages/ProductPage";
 import DefaultLayout from "./layouts/DefaultLayout";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import ProductDetailPage from "./pages/ProductDetailPage";
 const baseUrlAPI = "https://fakestoreapi.com/";
 
 export default function App() {
@@ -29,6 +30,7 @@ export default function App() {
             Component={() => <ProductPage products={getData} />}
           />
         </Route>
+        <Route path="/products/:id" element={<ProductDetailPage />} />
       </Routes>
     </BrowserRouter>
   );
