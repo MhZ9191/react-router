@@ -29,8 +29,8 @@ export default function App() {
             path="/products"
             Component={() => <ProductPage products={getData} />}
           />
+          <Route path="/products/:id" element={<ProductDetailPage />} />
         </Route>
-        <Route path="/products/:id" element={<ProductDetailPage />} />
       </Routes>
     </BrowserRouter>
   );

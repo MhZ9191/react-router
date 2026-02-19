@@ -109,6 +109,11 @@ img {
   height: 100px;
 }
 
+.link-single-card {
+  text-decoration: none;
+  color: black;
+}
+
 @media screen and (min-width: 678px) {
   .bi {
     display: none;
